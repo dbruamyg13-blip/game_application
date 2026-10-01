@@ -1,0 +1,11 @@
+{
+  "name": "gammaru-application",
+  "version": "1.0.0",
+  "private": true,
+  "description": "겜마루 동아리 신청서와 누적 엑셀 저장 서버",
+  "scripts": {
+    "start": "node application-server.cjs",
+    "check": "node --check application-server.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
